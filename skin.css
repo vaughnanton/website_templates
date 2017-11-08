@@ -1,0 +1,129 @@
+
+body {
+	  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+		height: 100%;
+		min-height: 100%;
+		max-width: 100%;
+}
+
+header {
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 8%;
+}
+
+footer {
+	padding-top: 15%;
+	padding-bottom: 3%;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style-type:none;
+}
+
+a:hover {
+	opacity: .2;
+	text-decoration: none;
+}
+
+button:hover {
+	opacity: .4;
+	transition: .3s;
+}
+
+.no-marg {
+	margin: 0px;
+}
+
+.mobil-img {
+	background-position: center;
+	/*background-size: cover;*/
+}
+
+.btn-large {
+	color: #fff;
+	background-color: #3D95CE;
+	width: 50%;
+	height: 60px;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	border-radius: .5rem;
+}
+
+.btn-label {
+	font-size: 20px;
+}
+
+.top-link {
+	font-size:16px;
+	color: #3D95CE;
+	padding: 10px 20px 10px 20px;
+}
+
+.bottom-link a {
+	opacity: 1;
+	font-size:16px;
+	color: #A9A9A9;
+}
+
+.login-button {
+	margin-right: 5px;
+}
+
+.bottom {
+	border-top: 1px solid #DCDCDC;
+	padding-top: 10px;
+}
+
+.as_nav {
+	border-bottom: 1px solid #DCDCDC;
+	padding-bottom: 10px;
+}
+
+.header-row {
+	margin-bottom: 20px;
+}
+
+.headline {
+	font-size: 50px;
+	font-weight: lighter;
+}
+
+.button-caption {
+	color: #A9A9A9;
+}
+
+.button-email {
+	color: #A9A9A9;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.use-email {
+	color: #3D95CE;
+}
+
+.copyright {
+	color: #A9A9A9;
+	margin-top:40px;
+	font-size:16px;
+}
+
+.copyright a {
+	color: #acd2e8;
+}
+
+
+/* media queries for mobile device if necessary */
+@media handheld, only screen and (max-width: 767px) {
+	.btn-large {
+		width: 100%;
+	}
+}
